@@ -26,40 +26,12 @@ my-project/
 │   ├── home.php
 │   ├── login.php
 │   ├── posters
-│   │   ├── antman.jpg
-│   │   ├── arcane.jpg
-│   │   ├── avengersageofultron.jpg
-│   │   ├── avengersinfinitywar.jpg
-│   │   ├── batman.jpg
-│   │   ├── blackwidow.jpg
-│   │   ├── dolittle.jpg
-│   │   ├── familyguy.jpg
-│   │   ├── ironman.jpg
-│   │   ├── rickandmorty.jpg
-│   │   ├── scottpilgrimvstheworld.jpg
-│   │   ├── spider-manhomecoming.jpg
-│   │   ├── theavengers.jpg
-│   │   ├── thecrowdedroom.jpg
-│   │   └── zodiac.jpg
 │   ├── purpleAndPink.jpg
 │   ├── register.php
 │   ├── searchResult.php
 │   ├── style.css
 │   ├── videoPage.php
 │   ├── videos
-│   │   ├── antman.mp4
-│   │   ├── arcane.mp4
-│   │   ├── avengersageofultron.mp4
-│   │   ├── avengersinfinitywar.mp4
-│   │   ├── blackwidow.mp4
-│   │   ├── dolittle.mp4
-│   │   ├── ironman.mp4
-│   │   ├── rickandmorty.mp4
-│   │   ├── scottpilgrimvstheworld.mp4
-│   │   ├── spider-manhomecoming.mp4
-│   │   ├── theavengers.mp4
-│   │   ├── thecrowdedroom.mp4
-│   │   └── zodiac.mp4
 │   └── xetflix_logo.png
 ├── db
 │   └── Dockerfile
