@@ -1,0 +1,568 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+ }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('purpleAndPink.jpg');
+    background-size: cover;
+    background-position: center;
+
+ }   
+
+ ::-webkit-scrollbar {
+  display: none;
+ }
+
+
+
+
+
+ /* login / register page */
+
+
+
+
+
+
+ .wrapper {
+   width: 420px;
+   background: rgb(0, 0, 0);
+   border: none;
+   backdrop-filter: blur(20px);
+   color: rgb(111, 111, 111);
+   border-radius: 15px;
+   padding: 30px 50px;
+ }
+
+ .wrapper h1 {
+   font-size: 45px;
+   text-align: center;
+  color: rgb(30, 9, 92);
+ }
+
+ .wrapper .input-box {
+   position: relative;
+   width: 100%;
+   height: 55px;
+   margin: 30px 0;
+ }
+
+ .input-box input {
+   width: 100%;
+   height: 100%;
+   background:  rgb(28, 28, 28);
+   border: none;
+   outline: none;
+   border: none;
+   border-radius: 40px;
+   font-size: 16px;
+   color: rgb(111, 111, 111);
+   padding: 20px 45px 20px 20px;
+ }
+
+ .input-box input::placeholder {
+   color: rgb(111, 111, 111);
+ }
+
+ .input-box i {
+   color: rgb(111, 111, 111);
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 20px;
+ }
+
+
+
+
+ .wrapper .btn {
+   width: 100%;
+   height: 45px;
+   background-color: rgb(28, 28, 28);
+   border: none;
+   border-radius: 45px;
+   cursor: pointer;
+   font-size: 16px;
+   color: rgb(111, 111, 111);
+   font-weight: 600;
+   transition: opacity 0.15s;
+ }
+
+ .wrapper .btn:hover {
+  opacity: 0.7;
+ }
+
+
+ .wrapper .register-link {
+   font-size: 15px;
+   text-align: center;
+   margin: 20px 0 10px;
+ }
+
+ .register-link p a {
+   color: rgb(111, 111, 111);
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .register-link p a:hover {
+   text-decoration: underline;
+ }
+
+ .wrapper .login-link {
+   font-size: 15px;
+   text-align: center;
+   margin: 20px 0 10px;
+ }
+
+ .login-link p a {
+   color: rgb(111, 111, 111);
+   text-decoration: none;
+   font-weight: 600;
+ }
+
+ .login-link p a:hover {
+   text-decoration: underline;
+ }
+
+
+
+
+
+
+
+/* homepage */
+
+
+
+
+
+
+ .home-page {
+  max-width: 96%;
+  min-width: 96%;
+  min-height: 100%;
+  margin-bottom: 0%;
+  margin-top: 4%;
+  background-color: rgb(28, 28, 28);
+  border-radius: 40px;
+  position: fixed;
+  color: rgb(255, 255, 255);
+ }
+
+
+ .sidebar {
+  min-height: 100%;
+  margin-bottom: 0%;
+  width: 90px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 40px 0px 0px 40px;
+  position: fixed;
+
+  color: rgb(0, 0, 0);
+ } 
+
+ .topbar {
+  min-width: 96%;
+  max-width: 96%;
+  min-height: 125px;
+  margin-bottom: 80%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 40px 40px 0px 0px;
+  position: fixed;
+  color: rgb(0, 0, 0);
+ }
+
+ .topbar .Xetflix-logo {
+  margin: 20px;
+   position: relative;
+ }
+
+  .topbar .Xetflix-logo:hover {
+  cursor: pointer;
+ }
+
+
+
+ .topbar form {
+  position: relative;
+  float: right;
+  margin-right: 100px;
+  margin-top: 50px;
+  
+ }
+
+ .topbar input{
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color:rgb(28, 28, 28);
+  text-align: center;
+  color: rgb(111, 111, 111);
+  font-size: 18px;
+ }
+
+  .topbar input::placeholder {
+  color: rgb(111, 111, 111);
+ }
+
+
+
+.topbar input:hover{
+ cursor: pointer;
+  background-color:rgb(89, 89, 89);
+  transition: 0.2s;
+ }
+
+ .main {
+  width: 100%;
+ }
+
+ .video-grid {
+  height: 1000px;
+
+  position: relative;
+  overflow-y: scroll;
+  	-webkit-overflow-scrolling:touch;
+  /*background-color: brown; */
+  background-color: rgb(28, 28, 28);
+  margin-top: 150px;
+  margin-left: 115px;
+  margin-right: 25px;
+  display: grid;
+ }
+
+ .video-grid h1 {
+  color: rgb(111, 111, 111);
+  margin-top: 50px;
+  border-left: 5px;
+  border-left-color: rgb(28, 28, 28);
+  border-left-style: solid;
+  padding-left: 6px;
+  border-left: 4px solid rgb(111, 111, 111);
+
+ }
+
+ .video-container h1 {
+  color: black;
+  margin-top: 0px;
+  border: none;
+ }
+
+ .video-container {
+  width:100%;
+  height: 400px;
+  overflow: hidden;
+ }
+
+ .modules {
+  color: rgb(111, 111, 111);
+  width: 100%;
+  height:450px;
+  padding:5px;
+  white-space:nowrap;
+  overflow-x: scroll;
+  overflow-y: hide;
+	-webkit-overflow-scrolling:touch;
+  background-color: rgb(0, 0, 0);
+}
+
+.module {
+  display:inline-block;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+   background-color:  rgb(28, 28, 28);
+}
+
+
+.module a {
+  text-decoration: none;
+}
+
+.module + .module {
+    margin-left:250px
+}
+
+.module img {
+  height: 350;
+  width: 250;
+    transition: all 0.2s ease-in-out;
+}
+
+.module img:hover {
+  height: 355;
+  width: 255;
+  transition: 0.2s;
+}
+
+.module h1{
+    color: rgb(111, 111, 111);
+}
+
+
+.sidebar a {
+ color: rgb(111, 111, 111);
+ text-decoration: none;
+}
+
+.sidebar i {
+  color: rgb(111, 111, 111);
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.sidebar i:hover {
+  font-size: 50px;
+  transition: 0.2s;
+}
+
+#icon1 {
+  margin-top: 200px;
+}
+
+
+
+/*Video page */
+
+.info-vid {
+  display: grid;
+  grid-template-columns: 1fr 3fr ;
+  margin-left: 50px;
+  margin-top: 90px;
+}
+
+.info {
+  width: 400px;
+  height: 600px;
+  margin-top: 50px;
+background-color:  rgb(53, 53, 53);
+position: relative;
+
+
+
+}
+
+.info img {
+ margin-left: 70px;
+ margin-top: 20px;
+  height: 350px;
+  width: 250px;
+}
+
+.info h1 {
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  font-size: 40px;
+}
+
+.info p {
+  margin: 25px;
+  color: black;
+  
+}
+
+.video {
+  width: 1100px;
+  height: 700px;
+  margin-left: 5%;
+  margin-right: 30%;
+  position: relative;
+  margin-top: 0%;
+  margin-bottom: 50px ;
+
+}
+
+.video video {
+  width: 1100px;
+  height: 700px;
+  
+}
+
+
+
+
+/* search result page */
+
+
+.result-videos {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    align-content: start;
+}
+
+
+ .result-img img{
+    width: 250;
+    height: 350;
+      transition: all 0.2s ease-in-out;
+  position: relative;
+
+}
+
+.result-img img:hover {
+  height: 360;
+  width: 260;
+  transition: 0.2s;
+}
+
+.result-img a {
+  text-decoration: none;
+}
+
+
+.result-img h1 {
+margin-top: 0;
+margin-bottom: 30px;
+border: none;
+color: rgb(111, 111, 111);
+}
+
+
+/* filter search */
+
+.filters {
+  background-color: rgb(0, 0, 0);
+  height: 350px;
+  margin-left: 20%;
+  margin-right: 40%;
+  color: rgb(111, 111, 111);
+  font-size: 30px;
+  display: flex;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.filters h1 {
+  font-size: 40px;
+  border: none;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.filtergenre {
+  flex: 3;
+
+
+}
+.filteractor {
+flex: 3;
+
+}
+
+.filtersearch {
+margin-top: 120px;
+margin-right: 20px;
+flex: 1;
+font-size: 40px;
+height: 45px;
+
+}
+.filtersearch .btn {
+  height: 75px;
+  width: 100px;
+background-color: rgb(28, 28, 28);
+ border: none;
+ border-radius: 20px;
+ cursor: pointer;
+ font-size: 16px;
+ color: rgb(111, 111, 111);
+ font-weight: 600;
+ transition: opacity 0.15s;
+ }
+
+.filtersearch .btn:hover {
+  opacity: 0.7;
+ }
+
+
+
+.container {
+
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  background-color: rgb(111 111, 111);
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: rgb(111, 111, 111);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: rgb(30, 9, 92);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid rgb(111, 111, 111);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
